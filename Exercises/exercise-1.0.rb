@@ -63,7 +63,7 @@ a=7 #assigns the variable a to the value 7
 7 >= 7 #results in true
 
 # Give an example of the following operators: ||, &&
-if s < 45 || s = 45 
+if s < 45 || s == 45 
   puts "You are not speeding."
 end
 if s < 0 && s != 0
@@ -72,4 +72,6 @@ end
 
 # Declare a variable called age. if age is less than 30, print "I am INSERT_AGE_VARIABLE years old".
 age = 12
-puts age.to_i<30 ? "I am #{age} years old." : ""
+if age < 30 
+  puts "I am #{a} years old."
+end
