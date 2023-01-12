@@ -10,13 +10,22 @@ user_input = gets.chomp
 puts "You typed: #{user_input}"
 
 new_number = ""
+new_number2 = ""
 
 def multiply_by_two(number)
   new_number = number.to_i * 2
-  return new_number
 end
 
 puts "Enter a number to multiply by 2:"
 number_input = gets.chomp
-multiply_by_two(number_input)
+new_number = multiply_by_two(number_input)
 puts "The answer is: #{new_number}"
+
+def divide_by_two(number2)
+  new_number2 =  number2.to_i / 2
+end
+
+puts "Enter a number to divide by 2:"
+number_input2 = gets.chomp
+new_number2 = divide_by_two(number_input2)
+puts "The answer is: #{new_number2}"
