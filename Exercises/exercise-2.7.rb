@@ -28,8 +28,6 @@ while i < nums.count do
   i += 1
 end
 
-
-
 # 8. Repeat lines 4-7 except, instead of a loop, use the built-in array method `select`.
 nums.select do |num|
   new_num = num * 2
