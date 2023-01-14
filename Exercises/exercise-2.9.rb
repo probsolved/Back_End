@@ -12,6 +12,9 @@ b = Box.new()
 c = Box.new()
 
 # 3. Print each oox instance.
+puts a.class
+puts b.class
+puts c.class
 
 # Output
 
